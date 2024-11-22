@@ -72,8 +72,3 @@ threadHandler.sendMessage()
 *   子线程调用Looper.loop()后从MessageQueue读取消息并处理，如果没有消息则会阻塞，有消息时被唤醒；
 *   UI线程通过threadHandler.sendMessage创建消息，添加的MessageQueue中；
 *   然后Looper被唤醒，并从中获取消息，最后根据target分发到对应的handler进行消费；
-
-> 十年鹅厂程序员，专注大前端、AI、个人成长、副业搞钱 <br>
-> 公众号：沐言知识圈 <br>
-> 技术交流群（备注：Android），技术交流、程序员搞钱探索
-> ![Android1.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/a580836e88b94ff89f711894843d556c~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKQ6KiA55-l6K-G5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732853273&x-orig-sign=nE4EmVbfU8XHajKQihQONLM3INc%3D)
