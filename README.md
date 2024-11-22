@@ -1,9 +1,6 @@
 > 十年鹅厂程序员，专注大前端、AI、个人成长、副业搞钱 <br>
 > 技术交流群qiejun2025（备注：Android）
 
-![名片.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/images/%E5%90%8D%E7%89%87.jpg)
-
-
 # AndroidFramework目录
 
 ## 01 Hander消息系统
@@ -21,3 +18,9 @@
 [Android10 Framework—Handler消息系统—6.同步屏障](https://github.com/linuxjava/AndroidFramework/blob/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/Android10%20Framework%E2%80%94Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E2%80%946.%E5%90%8C%E6%AD%A5%E5%B1%8F%E9%9A%9C.md)
 
 [Android10 Framework—Handler消息系统—7.IdleHandler机制](https://github.com/linuxjava/AndroidFramework/blob/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/Android10%20Framework%E2%80%94Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E2%80%947.IdleHandler%E6%9C%BA%E5%88%B6.md)
+
+
+
+
+
+![名片.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/images/%E5%90%8D%E7%89%87.jpg)
