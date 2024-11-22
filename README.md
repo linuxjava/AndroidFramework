@@ -1,5 +1,11 @@
-# AndroidFramework目录
+> 十年鹅厂程序员，专注大前端、AI、个人成长、副业搞钱 <br>
+> 公众号：沐言聊Android <br>
+> 技术交流群qiejun2025（备注：Android）
 
+
+
+
+# AndroidFramework目录
 
 ## 01 Hander消息系统
 
