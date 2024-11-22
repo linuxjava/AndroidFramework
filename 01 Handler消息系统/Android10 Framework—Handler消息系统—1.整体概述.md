@@ -4,7 +4,7 @@
 
 # 类图
 
-![类图.jpg](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/d60836c9b01446359b8188384a423fd8~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKQ6KiA55-l6K-G5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732853273&x-orig-sign=QS3ihyzGCG8OQUwE69OlXME2ONs%3D)
+![类图.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/images/%E7%B1%BB%E5%9B%BE.jpg)
 Handler消息系统通过线程间消息通信达到线程切换的目的。
 
 ## Looper
@@ -40,7 +40,7 @@ Handler消息系统通过线程间消息通信达到线程切换的目的。
 
 # 消息系统工作流
 
-![消息系统工作流.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/35049690ba514681a7670be28d7efbf2~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKQ6KiA55-l6K-G5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732853273&x-orig-sign=PJnkBs7hqzKdGn%2BpftZ1qQVM59M%3D)
+![消息系统工作流.png](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/images/%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%B7%A5%E4%BD%9C%E6%B5%81.png)
 消息系统是一个生产消费者模型，核心有 2 个
 
 *   消息生产者
