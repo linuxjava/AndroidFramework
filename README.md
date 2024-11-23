@@ -1,5 +1,5 @@
 > 十年鹅厂程序员，专注大前端、AI、个人成长、副业搞钱 <br>
-> 技术交流群qiejun2025（备注：Android）
+> 技术交流群qiejun2025（备注：Android）<br>
 > 公众号：企鹅君技术圈
 
 # AndroidFramework目录
@@ -29,5 +29,12 @@
 
 [Android10 Framework—Init进程-1.init进程执行流程](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/Android10%20Framework%E2%80%94Init%E8%BF%9B%E7%A8%8B-1.init%E8%BF%9B%E7%A8%8B%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.md)
 
+[Android10 Framework—Init进程-2.init启动第一阶段](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/Android10%20Framework%E2%80%94Init%E8%BF%9B%E7%A8%8B-1.init%E8%BF%9B%E7%A8%8B%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.md)
+
+[Android10 Framework—Init进程-3.init启动第二阶段](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/Android10%20Framework%E2%80%94Init%E8%BF%9B%E7%A8%8B-1.init%E8%BF%9B%E7%A8%8B%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.md)
+
+[Android10 Framework—Init进程-4.init进程日志](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/Android10%20Framework%E2%80%94Init%E8%BF%9B%E7%A8%8B-1.init%E8%BF%9B%E7%A8%8B%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.md)
+
+[Android10 Framework—Init进程-5.SEAndroid机制](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/Android10%20Framework%E2%80%94Init%E8%BF%9B%E7%A8%8B-1.init%E8%BF%9B%E7%A8%8B%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.md)
 
 ![名片.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/images/%E5%90%8D%E7%89%87.jpg)
