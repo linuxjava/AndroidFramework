@@ -29,7 +29,7 @@ MAC 可以明显弥补 DAC 的缺陷。如可限制 Root 权限，即使你有 r
 资源的访问行为。在 Linux Kernel，所有的 MAC 机制都是搭建在 Linux Security Modules(LSM)基础上,目前
 SELinux 已经成了事实上的行业标准。
 
-![DAC和MAC.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/0d6ed3209292469191c1ad9d9d1703c9~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=jPVBa9ZX9prN1CnR3APcu1ZeRfw%3D)
+![DAC和MAC.png](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/DAC%E5%92%8CMAC.png)
 
 注意：Linux系统先做DAC检查。如果没有通过DAC权限检查，则操作直接失败。通过DAC检查之后，再做MAC权限检查。
 
@@ -43,7 +43,7 @@ SELinux(Security Enhanced Linux)就是 linux 系统中对 MAC 的实现。由于
 # SEAndroid框架
 
 参考罗升阳大神的这张图
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/c256a19915a947c19d36b19b91272185~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=TD%2BSWJDADYB0BKxfA%2Bt9FbsgbmU%3D)
+![image.png](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/%E7%BD%97%E5%8D%87%E9%98%B3.png)
 SEAndroid 框架是由用户空间和内核空间组成， 用户空间安全保护机制中主要包含：
 
 *   安全上下文（Security
@@ -64,7 +64,7 @@ SEAndroid 框架是由用户空间和内核空间组成， 用户空间安全保
 
 上面这个框架图说明了大体结构，但是整个机制的工作流描述的还不太清晰，因此使用下面这张流程图讲其工作流阐述清楚。
 
-![SEAndroid工作流程.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/a4306d01e8a142fcae61446dc822d9c7~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=cmhKi6dvhEfzm8SON2R9UIc3Nig%3D)
+![SEAndroid工作流程.png](https://github.com/linuxjava/AndroidFramework/blob/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/SEAndroid%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.png)
 如上图所示，当一个进程想要访问一个文件时（读写操作等），需要解决 3 个问题：
 
 *   谁来做裁判，评判进程是否有权限访问这个文件，这个裁判就是LSM
@@ -539,10 +539,10 @@ get_prop($1, $2)
 
 整个编译过程大致如下：
 
-![编译.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/77afda658c4a404e92f5d0e07b3ad8b8~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=cn47vGlGDKBUMoUNATXJaR03XF8%3D)
+![编译.png](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/%E7%BC%96%E8%AF%91.png)
 Android系统将源码部分分为平台和非平台，因为Android系统的开发除了google，还有硬件厂商（包括vendor、odm、oem等），google自己的代码为平台代码，硬件厂商的代码为非平台代码，如下图所示
 
-![vendor.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/3ca19baaa5eb4a549e62877cedc2b67f~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=pd3HTD%2Bv%2Fmfz08QSOMT4ESQqiY8%3D)
+![vendor.png](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/02%20Android%E5%90%AF%E5%8A%A8/images/vendor.png)
 所以SEAndroid的源码位置分为平台和非平台 2 处存放。
 
 这些文件会经历如下编译步骤：
@@ -588,8 +588,8 @@ external/selinux/
 *   /odm/etc/selinux
 *   /oem/etc/selinux
 
-![1.jpg](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/82764f55501c42d2a0d355a1dab12dae~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=e70khJoO1MwGwcmDQVR9nJZUqTE%3D)
-![2.jpg](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/54d8e7cb7049415cb5b1008624dcf016~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=jF2Yrx6iySL9F%2FfWnaVlWw4CBg0%3D)
+![1.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/1.jpg)
+![2.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/2.jpg)
 
 这些文件在后续的权限检查判断过程中会被：安全服务（Security Server）相关模块以及内核LSM所使用到。
 
@@ -850,7 +850,7 @@ std::vector<const char*> compile_args {
 ```
 
 使用/system/bin/secilc编译工具进行编译
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/16d72a9ec06b4cc6b9b6ab137098e059~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732925794&x-orig-sign=G7SVHtIDrC0m7dnMR2V75U9r6%2FE%3D)
+![image.png](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/02%20Android%E5%90%AF%E5%8A%A8/images/SEAndroid/3.jpg)
 编译所需源文件放在compile\_args中，最后会fork一个进程进行单独编译，并等待进程处理完返回
 
 ```java
