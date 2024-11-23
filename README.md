@@ -21,7 +21,13 @@
 [Android10 Framework—Handler消息系统—7.IdleHandler机制](https://github.com/linuxjava/AndroidFramework/blob/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/Android10%20Framework%E2%80%94Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E2%80%947.IdleHandler%E6%9C%BA%E5%88%B6.md)
 
 
+## 02 Android启动
 
+[Android启动概述](https://github.com/linuxjava/AndroidFramework/blob/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/Android10%20Framework%E2%80%94Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E2%80%947.IdleHandler%E6%9C%BA%E5%88%B6.md)
+
+[Android系统—system、product、vendor、odm分区介绍](https://github.com/linuxjava/AndroidFramework/blob/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/Android10%20Framework%E2%80%94Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E2%80%947.IdleHandler%E6%9C%BA%E5%88%B6.md)
+
+[Android10 Framework—Init进程-1.init进程执行流程](https://github.com/linuxjava/AndroidFramework/blob/main/01%20Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F/Android10%20Framework%E2%80%94Handler%E6%B6%88%E6%81%AF%E7%B3%BB%E7%BB%9F%E2%80%947.IdleHandler%E6%9C%BA%E5%88%B6.md)
 
 
 ![名片.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/images/%E5%90%8D%E7%89%87.jpg)

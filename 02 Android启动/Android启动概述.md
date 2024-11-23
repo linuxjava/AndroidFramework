@@ -13,7 +13,7 @@ BootRom->BootLoader->Linux Kernel->Init->Zygote->SystemServer->Launcher
 
 Android架构图如下（图片来源于Gityuan）
 
-![启动架构图.jpg](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/f283754e4acf4745a66caee41b1679e1~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LyB6bmF5ZCb5oqA5pyv5ZyI:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTgzODAzOTE3MjkxMTM2NyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732924567&x-orig-sign=8ed4j6ULGa1%2FR5qJzioPoJSmSGI%3D)
+![启动架构图.jpg](https://raw.githubusercontent.com/linuxjava/AndroidFramework/refs/heads/main/02%20Android%E5%90%AF%E5%8A%A8/images/Android%E5%90%AF%E5%8A%A8%E6%9E%B6%E6%9E%84%E5%9B%BE/%E5%90%AF%E5%8A%A8%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
 
 Android 系统启动流程：
 
